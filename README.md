@@ -4,7 +4,7 @@
 
 ## Task :
 
-- Go to tentech_practice directory.
+- Go to tentech_practice directory (collaborate directory in our case)
 
 - Run command to verify if you are in the main branch.
 
