@@ -1,7 +1,5 @@
 
 betul fjkfddlf
 # collaborate
-Hi everyone
 
- 
-
+This is a repository for Tentech batch8 collaboration 
