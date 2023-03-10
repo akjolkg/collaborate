@@ -1,9 +1,11 @@
 # This is my working directory for git/GitHub practice
 
 **Git** - is a distributed version control system that tracks changes in any set of computer files.
+
 *Git* works on the local machine and can be used without connection to a server. It is a file storage
 
 **GitHub** - is a hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
+
 *GitHub* - is a cloud server that stores version control of the file
 
 * 4 STAGES :*
