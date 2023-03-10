@@ -1,5 +1,1 @@
-
-betul fjkfddlf
-# collaborate
-
-This is a repository for Tentech batch8 collaboration 
+# This repository is for Tentech batch8 collaboration 
