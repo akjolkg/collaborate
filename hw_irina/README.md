@@ -8,7 +8,7 @@
 
 *GitHub* - is a cloud server that stores version control of the file
 
-* 4 STAGES :*
+## 4 STAGES :
 - Working directory : run ``git init`` to initialize the working directory as a repository, ***.git*** folder will be created . If you delete this directory ,  repository will become  a simple folder.
 
 - Staging area : ``git add .`` 
