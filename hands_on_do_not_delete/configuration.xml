@@ -1,3 +1,50 @@
+echo "hello everyone"
+read -p "How do you like Git?" var
+echo $var
+echo "I think it's ok but a bit confusing"
+read -p "Do you need more practice?" var
+echo $var
+echo "Good luck!"
+alina test
+
+
+#!/bin/bash
+
+#aigerim's code
+
+for var in $@
+do
+
+case $var in
+jan | dec | feb ) echo "WINTER";;
+1 | 2 | 3 ) echo "small numbers";;
+10 ) echo "TEN";;
+esac
+done
+
+
+
+# Bash Script for mounting volumes by Irina:
+
+lsblk | grep "/" -v | while read var; do
+        hdid=$(echo $var | cut -f 1 -d " ");
+        if [[ $hdid != "NAME" && $hdid != xvda ]]; then
+                echo $hdid;
+                #Your mounting code should go here!!!!!
+                mkfs.xfs /dev/$hdid
+                declare -i i=1;
+                while [[ -d /backup$i ]]; do i=$i+1; done
+                mkdir /backup$i
+                mount /dev/$hdid /backup$i
+                uuid=$(blkid | grep "/dev/$hdid")
+                clear_uuid=$(echo $uuid | cut -f 2 -d "\"")
+                echo "UUID=$clear_uuid     /backup${i}           xfs    defaults,noatime  1   1" >> /etc/fstab
+        fi;
+
+done
+
+https.url="www.google.com"
+port=5432
 
 <!DOCTYPE html>
 <html>
@@ -18,9 +65,56 @@ p    {color: red;}
 </body>
 </html>
 
+kanybekov022@gmail.com
+nurs-nk
+mkdir
+git pull
+git push
+git rebase
+git commit -am
+git add .
+git branch -b
+
+
+
+<configuration>
+  <database>
+    <name>my_database</name>
+    <host>localhost</host>
+    <port>3306</port>
+    <username>my_username</username>
+    <password>my_password</password>
+  </database>
+
+
+<html>
+ <title>Meka's index.html</title>
+   <body>
+     <h2> Hello World! </h2>
+     <p> To learn coding, you need to practice and improve your logical thinking </p>
+     <p> HackerRank.com is the best platform to improve your coding skills</p>
+   </body>
+</html>
+
 https.url="www.google.com"
 port=5432
 Echo " DEVOPS"
 touch Devops txt 
 <head> <color>
 Ulala ~~!!!!
+
+# Bash script from Anita 
+#!/bin/bash
+
+if [ -f  "tests.sh" ];
+then
+    echo "Tests file does exist!"
+fi
+# by Kyiaz 
+#!/bin/bash 
+echo "hello world"
+
+alina test
+
+https.url="www.google.com"
+port=5432
