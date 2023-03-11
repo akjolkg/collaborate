@@ -1,0 +1,7 @@
+mkdir
+git pull
+git push
+git rebase
+git commit -am
+git add .
+git branch -b
