@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 #aigerim's code
@@ -11,3 +12,7 @@ jan | dec | feb ) echo "WINTER";;
 10 ) echo "TEN";;
 esac
 done
+
+
+
+
