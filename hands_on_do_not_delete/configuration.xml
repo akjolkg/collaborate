@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#aigerim's code
+
+for var in $@
+do
+
+case $var in
+jan | dec | feb ) echo "WINTER";;
+1 | 2 | 3 ) echo "small numbers";;
+10 ) echo "TEN";;
+esac
+done
