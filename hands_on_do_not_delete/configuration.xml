@@ -1,0 +1,8 @@
+<configuration>
+  <database>
+    <name>my_database</name>
+    <host>localhost</host>
+    <port>3306</port>
+    <username>my_username</username>
+    <password>my_password</password>
+  </database>
