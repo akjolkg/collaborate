@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <configuration>
   <database>
     <name>my_database</name>
@@ -28,6 +29,8 @@ p    {color: red;}
 </body>
 </html>
 
+=======
+>>>>>>> b45b446ef4909ae362cb5e96f6025e6bc30dda10
 https.url="www.google.com"
 port=5432
 
