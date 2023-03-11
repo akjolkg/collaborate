@@ -77,6 +77,15 @@ p    {color: red;}
 </body>
 </html>
 
+<html>
+ <title>Meka's index.html</title>
+   <body>
+     <h2> Hello World! </h2>
+     <p> To learn coding, you need to practice and improve your logical thinking </p>
+     <p> HackerRank.com is the best platform to improve your coding skills</p>
+   </body>
+</html>
+
 https.url="www.google.com"
 port=5432
 
@@ -95,3 +104,4 @@ alina test
 
 https.url="www.google.com"
 port=5432
+
