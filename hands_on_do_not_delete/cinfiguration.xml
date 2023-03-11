@@ -1,0 +1,14 @@
+umber=$(( RANDOM % 10 ))
+chances=5
+echo “Try a number between 0 and 9. You have $chances tries to guess it!”
+while [[ $chances -gt 0 ]]; do
+  read -p “Guess the number: ” try
+  if [[ $try -eq $number ]]; then
+    echo “Congratulations! You guessed the number!”
+    exit 0
+  else
+    chances=$(( chances - 1 ))
+    echo “Sorry, that was not the number. You have $chances tries left.”
+  fi
+done
+echo “Sorry, you have used all your tries. The number was $number.”
