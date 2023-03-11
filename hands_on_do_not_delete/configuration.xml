@@ -1,5 +1,4 @@
-https.url="www.google.com"
-port=5432
+
 
 echo "hello everyone"
 read -p "How do you like Git?" var
