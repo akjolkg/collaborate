@@ -1,3 +1,10 @@
+echo "hello everyone"
+read -p "How do you like Git?" var
+echo $var
+echo "I think it's ok but a bit confusing"
+read -p "Do you need more practice?" var
+echo $var
+echo "Good luck!"
 alina test
 
 
