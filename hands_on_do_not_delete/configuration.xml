@@ -20,5 +20,6 @@ p    {color: red;}
 
 https.url="www.google.com"
 port=5432
-
-
+Echo " DEVOPS"
+touch Devops txt 
+<head> <color>
