@@ -1,0 +1,11 @@
+https.url="www.google.com"
+port=5432
+
+# Bash script from Anita 
+#!/bin/bash
+
+if [ -f  "tests.sh" ];
+then
+    echo "Tests file does exist!"
+fi
+
