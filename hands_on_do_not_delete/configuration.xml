@@ -1,0 +1,17 @@
+# Bash Script for mounting volumes by Irina:
+
+lsblk | grep "/" -v | while read var; do
+        hdid=$(echo $var | cut -f 1 -d " ");
+        if [[ $hdid != "NAME" && $hdid != xvda ]]; then
+                echo $hdid;
+                #Your mounting code should go here!!!!!
+                mkfs.xfs /dev/$hdid
+                declare -i i=1;
+                while [[ -d /backup$i ]]; do i=$i+1; done
+                mkdir /backup$i
+                mount /dev/$hdid /backup$i
+                uuid=$(blkid | grep "/dev/$hdid")
+                clear_uuid=$(echo $uuid | cut -f 2 -d "\"")
+                echo "UUID=$clear_uuid     /backup${i}           xfs    defaults,noatime  1   1" >> /etc/fstab
+        fi;
+done
