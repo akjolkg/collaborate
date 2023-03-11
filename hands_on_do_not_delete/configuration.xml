@@ -98,6 +98,10 @@ git branch -b
 
 https.url="www.google.com"
 port=5432
+Echo " DEVOPS"
+touch Devops txt 
+<head> <color>
+Ulala ~~!!!!
 
 # Bash script from Anita 
 #!/bin/bash
