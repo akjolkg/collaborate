@@ -1,6 +1,40 @@
+ HEAD
+ HEAD
+<configuration>
+  <database>
+    <name>my_database</name>
+    <host>localhost</host>
+    <port>3306</port>
+    <username>my_username</username>
+    <password>my_password</password>
+  </database>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+BETUL'S HTML
+
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>Hello World!!!</h1>
+<p>This is Betul.</p>
+
+</body>
+</html>
+
+
+b45b446ef4909ae362cb5e96f6025e6bc30dda10
 https.url="www.google.com"
 port=5432
 
 kanybekov022@gmail.com
 nurs-nk:
 
+ ebcd841ecff0aa2db4ef87889a3d01a39e594463
