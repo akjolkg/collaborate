@@ -1,5 +1,3 @@
-
-
 echo "hello everyone"
 read -p "How do you like Git?" var
 echo $var
@@ -7,3 +5,81 @@ echo "I think it's ok but a bit confusing"
 read -p "Do you need more practice?" var
 echo $var
 echo "Good luck!"
+
+
+#!/bin/bash
+
+#aigerim's code
+
+for var in $@
+do
+
+case $var in
+jan | dec | feb ) echo "WINTER";;
+1 | 2 | 3 ) echo "small numbers";;
+10 ) echo "TEN";;
+esac
+done
+
+
+
+# Bash Script for mounting volumes by Irina:
+
+lsblk | grep "/" -v | while read var; do
+        hdid=$(echo $var | cut -f 1 -d " ");
+        if [[ $hdid != "NAME" && $hdid != xvda ]]; then
+                echo $hdid;
+                #Your mounting code should go here!!!!!
+                mkfs.xfs /dev/$hdid
+                declare -i i=1;
+                while [[ -d /backup$i ]]; do i=$i+1; done
+                mkdir /backup$i
+                mount /dev/$hdid /backup$i
+                uuid=$(blkid | grep "/dev/$hdid")
+                clear_uuid=$(echo $uuid | cut -f 2 -d "\"")
+                echo "UUID=$clear_uuid     /backup${i}           xfs    defaults,noatime  1   1" >> /etc/fstab
+        fi;
+
+done
+
+https.url="www.google.com"
+port=5432
+
+
+<configuration>
+  <database>
+    <name>my_database</name>
+    <host>localhost</host>
+    <port>3306</port>
+    <username>my_username</username>
+    <password>my_password</password>
+  </database>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+BETUL'S HTML
+
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>Hello World!!!</h1>
+<p>This is Betul.</p>
+
+</body>
+</html>
+
+
+b45b446ef4909ae362cb5e96f6025e6bc30dda10
+https.url="www.google.com"
+port=5432
+
+
+
+ ebcd841ecff0aa2db4ef87889a3d01a39e594463
