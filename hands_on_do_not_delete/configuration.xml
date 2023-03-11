@@ -36,3 +36,10 @@ port=5432
 
 
  ebcd841ecff0aa2db4ef87889a3d01a39e594463
+
+
+
+
+# by Kyiaz 
+#!/bin/bash 
+echo "hello world"
