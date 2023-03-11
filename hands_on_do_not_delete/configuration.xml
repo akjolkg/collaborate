@@ -91,4 +91,7 @@ fi
 #!/bin/bash 
 echo "hello world"
 
+alina test
 
+https.url="www.google.com"
+port=5432
