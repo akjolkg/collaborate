@@ -1,3 +1,17 @@
+
+systemctl ststus httpd
+systemctl start httpd
+put HTTP security permision in AWS instance
+go browser and type Public IP  on EC2 instance should be able to connect to that test web site
+ps aux | grep httpd
+systemd-analyze > system-analyze.txt
+cat  systemd-analyze-time.txt | sort -nr | head -n 3
+or
+system-analyze blame
+systemd-analyze blame > /tmp/system-analyze.txt
+cat /tmp/system-analyze.txt
+cat /tmp/system-analyze.txt | head -3 
+
 echo "hello everyone"
 read -p "How do you like Git?" var
 echo $var
@@ -106,8 +120,8 @@ Ulala ~~!!!!
 # Bash script from Anita 
 #!/bin/bash
 
-if [ -f  "tests.sh" ];
-then
+
+if [ -f  "tests.sh" ];then
     echo "Tests file does exist!"
 fi
 # by Kyiaz 
