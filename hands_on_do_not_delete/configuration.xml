@@ -36,7 +36,15 @@ jan | dec | feb ) echo "WINTER";;
 esac
 done
 
-
+<check-website_is_up_by_Leyla><![CDATA[
+#!/bin/bash
+webname=$1
+if curl --output /dev/null --silent --head --fail $webname; then
+  echo "The website is up"
+else
+  echo "The website is down"
+fi
+]]></check-website>
 
 # Bash Script for mounting volumes by Irina:
 
